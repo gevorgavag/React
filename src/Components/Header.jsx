@@ -1,12 +1,13 @@
 import React from 'react';
+import s from "./css/Header.module.css";
 
 const Header = () => {
 
     return (
-        <header className="header">
+        <header className={s.header}>
             <img
-                className="headerImg"
-                src="https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg"/>
+                src="https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg"
+            />
         </header>
     );
 };
